@@ -99,43 +99,43 @@
 <div id="hd" class="bgZ">
 
     <!-- 팝업레이어 시작 { -->
-    <div id="hd_pop">
-        <h2>팝업레이어 알림</h2>
+<!--    <div id="hd_pop">-->
+<!--        <h2>팝업레이어 알림</h2>-->
 
 
-        <div id="hd_pops_17" class="hd_pops"
-             style="top:100px;left:50px">
-            <div class="hd_pops_con" style="width:300px;height:360px">            <p><a href="https://bebe-box.co.kr/cafe_mk_ori.php" rel="nofollow"><img src="http://bebe-box.co.kr/data/editor/2403/8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" title="8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" alt="8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" /></a></p>
+<!--        <div id="hd_pops_17" class="hd_pops"-->
+<!--             style="top:100px;left:50px">-->
+<!--&lt;!&ndash;            <div class="hd_pops_con" style="width:300px;height:360px">            <p><a href="https://bebe-box.co.kr/cafe_mk_ori.php" rel="nofollow"><img src="http://bebe-box.co.kr/data/editor/2403/8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" title="8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" alt="8ff37aa7dd21983e506310f7a19b0b3b_1710316977_4174.jpg" /></a></p>&ndash;&gt;-->
 
-                <p><a href="https://bebe-box.co.kr/bbs/write_box.php?bo_table=ms_box" rel="nofollow"><img src="http://bebe-box.co.kr/data/editor/2307/6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" title="6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" alt="6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" /></a></p>
-
-
-                <p><a href="https://bebe-box.co.kr/shop/?ac=bepang_main" rel="nofollow"><img src="https://bebe-box.co.kr/data/editor/2405/57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" title="57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" alt="57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" /><br style="clear:both;" /><br /></a></p>        </div>
-            <div class="hd_pops_footer">
-                <button class="hd_pops_reject hd_pops_17 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
-                <button class="hd_pops_close hd_pops_17">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
-            </div>
-        </div>
+<!--                <p><a href="https://bebe-box.co.kr/bbs/write_box.php?bo_table=ms_box" rel="nofollow"><img src="http://bebe-box.co.kr/data/editor/2307/6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" title="6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" alt="6d94aff65f676e7b2d8a495fc8a1b892_1688626928_3251.png" /></a></p>-->
 
 
-    </div>
-    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>
-        $(function() {
-            $(".hd_pops_reject").click(function() {
-                var id = $(this).attr('class').split(' ');
-                var ck_name = id[1];
-                var exp_time = parseInt(id[2]);
-                $("#"+id[1]).css("display", "none");
-                set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
-            });
-            $('.hd_pops_close').click(function() {
-                var idb = $(this).attr('class').split(' ');
-                $('#'+idb[1]).css('display','none');
-            });
-            $("#hd").css("z-index", 1000);
-        });
-    </script>
+<!--                <p><a href="https://bebe-box.co.kr/shop/?ac=bepang_main" rel="nofollow"><img src="https://bebe-box.co.kr/data/editor/2405/57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" title="57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" alt="57da5a283bcf3814d7a45b800b5a9fbd_1716884384_2454.jpg" /><br style="clear:both;" /><br /></a></p>        </div>-->
+<!--            <div class="hd_pops_footer">-->
+<!--                <button class="hd_pops_reject hd_pops_17 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>-->
+<!--                <button class="hd_pops_close hd_pops_17">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+<!--    </div>-->
+<!--    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+<!--    <script>-->
+<!--        $(function() {-->
+<!--            $(".hd_pops_reject").click(function() {-->
+<!--                var id = $(this).attr('class').split(' ');-->
+<!--                var ck_name = id[1];-->
+<!--                var exp_time = parseInt(id[2]);-->
+<!--                $("#"+id[1]).css("display", "none");-->
+<!--                set_cookie(ck_name, 1, exp_time, g5_cookie_domain);-->
+<!--            });-->
+<!--            $('.hd_pops_close').click(function() {-->
+<!--                var idb = $(this).attr('class').split(' ');-->
+<!--                $('#'+idb[1]).css('display','none');-->
+<!--            });-->
+<!--            $("#hd").css("z-index", 1000);-->
+<!--        });-->
+<!--    </script>-->
     <!-- } 팝업레이어 끝 -->
     <!-- 팝업레이어 시작 { -->
     <div id="hd_pop">
